@@ -1,0 +1,24 @@
+{
+   ncurses_error_scrn
+   Memcheck:Leak
+   ...
+   fun:initscr
+}
+{
+   ncurses_error_refresh
+   Memcheck:Leak
+   ...
+   fun:wrefresh
+}
+{
+   ncurses_error_keypad
+   Memcheck:Leak
+   ...
+   fun:_nc_keypad
+}
+{
+   ncurses_error_color
+   Memcheck:Leak
+   ...
+   fun:start_color_sp
+}
